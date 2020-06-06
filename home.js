@@ -1,0 +1,2 @@
+var resultInfo;
+function home() {}
