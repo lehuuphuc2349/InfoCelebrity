@@ -16,8 +16,8 @@ var info = [
     age: 65,
   },
 ];
-// for (var i = 0; i < info.length; i++) {
-//   document.getElementById("root").innerHTML +=
-//     `   <form> <br>${info[i].name} <br> ${info[i].age} <br> ${info[i].title}</form>` +
-//     `   <form> <br>${info[i].name} <br> ${info[i].age} <br> ${info[i].title}</form>`;
-// }
+for (var i = 0; i < info.length; i++) {
+  document.getElementById("root").innerHTML +=
+    `  <form> <br>${info[i].name} <br> ${info[i].age} <br> ${info[i].title}</form>` +
+    `  <form> <br>${info[i].name} <br> ${info[i].age} <br> ${info[i].title}</form>`;
+}
